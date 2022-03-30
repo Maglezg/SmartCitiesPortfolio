@@ -1,0 +1,41 @@
+<div class="ae-container-fluid ae-container-fluid--inner rk-main">
+  <div class="ae-grid au-pt-2">
+    <div class="ae-grid__item item-lg-8 item-lg--offset-2" style=text-align:justify>
+      <h4 class="ae-u-bolder">Sobre el portfolio </h4>
+      <p>Este portfolio es una pequeña parte de mi, aquella que intenta cuidar su salud mental y sobreponerse a la opresión del sistema. Hay un estilo de fotografía muy marcado (planos detalle y estáticos, características de mi época de fotógrafa) y también hay elementos que conforman mi día a día, como el libro de recetas veganas.</p>
+    </div>
+  </div>
+    <div class="ae-grid au-xs-ta-center au-mb-4">
+      <div *ngFor="let persona of equipo" class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src={{persona.url}} alt="" class="au-mb-3">
+        <h5 class="ae-u-bolder au-mt-2">{{persona.nombre}}</h5>
+        <p class="ae-u-bolder au-mb-3">{{persona.subtitulo}}</p>
+        <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{persona.frase}}</p><a href="#0" class="ae-u-bolder au-underline">{{persona.twitter}}</a>
+      </div>
+    </div>
+    <div class="ae-grid au-pt-2">
+      <div class="ae-grid__item item-lg-8 item-lg--offset-2" style=text-align:justify>
+        <h4 class="ae-u-bolder">Rugby Player</h4>
+        <p>Amante de los deportes en general y del rugby en particular. Donde esté un tercer tiempo que se quite lo demás.</p>
+      </div>
+    </div>
+    <div class="ae-grid ae-grid--alt au-xs-ptp-1">
+      <div class="ae-grid__item--alt item-lg-4" style=text-align:justify>
+        <h6 class="ae-u-boldest">Sobre mí</h6>
+        <p class="au-lh-3">Vegetariana, feminista, LGTBI, crítica sobre el sistema, mother of cat. He tenido más trabajos diferentes que Belén Lopez Vazquez (ANHQV).</p>
+      </div>
+      <div class="ae-grid__item--alt item-lg-4" style=text-align:justify>
+        <h6 class="ae-u-boldest">Mi misión</h6>
+        <p class="au-lh-3">No necesito concienciar al mundo entero sobre qué está bien y qué está mal en cuestiones de sostenbilidad y medioambiente, pero si consigo convencer a mis padres y mi pareja sobre ello, entonces lo estaré haciendo bien.</p>
+      </div>
+      <div class="ae-grid__item--alt item-lg-4" style=text-align:justify>
+        <h6 class="ae-u-boldest">Generación de los 90</h6>
+        <p class="au-lh-3">Nací en el 92, parecía que las Olimpiadas auguraban un porvenir maravilloso para todes nosotres, aquelles nacides en el 92. Contratodo pronóstico, mi generación vive precaria y reinventándose cada dos por tres con tal de tener un futuro.</p>
+        <p class="au-lh-3">Que no un futuro mejor.</p>
+      </div>
+    </div>
+    <p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">Vuelve a mi espacio<span class="arrow-cont">
+          <svg>
+            <use xlink:href="assets/img/symbols.svg#arrow"></use>
+          </svg></span></a></p>
+  </div>
+
